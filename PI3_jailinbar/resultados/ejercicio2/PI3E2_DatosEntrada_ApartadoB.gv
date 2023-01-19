@@ -1,0 +1,30 @@
+strict graph G {
+  1 [ color="blue" label="Ciudad1 40 puntos" ];
+  2 [ color="blue" label="Ciudad2 11 puntos" ];
+  3 [ color="blue" label="Ciudad3 20 puntos" ];
+  4 [ color="blue" label="Ciudad4 13 puntos" ];
+  5 [ color="blue" label="Ciudad5 31 puntos" ];
+  6 [ label="Ciudad6 25 puntos" ];
+  7 [ label="Ciudad7 10 puntos" ];
+  8 [ label="Ciudad8 23 puntos" ];
+  9 [ label="Ciudad9 14 puntos" ];
+  10 [ label="Ciudad10 8 puntos" ];
+  11 [ label="Ciudad11 10 puntos" ];
+  1 -- 2 [ color="blue" ];
+  2 -- 3 [ color="blue" ];
+  3 -- 5 [ color="blue" ];
+  2 -- 4 [ color="blue" ];
+  4 -- 5 [ color="blue" ];
+  1 -- 3 [ color="blue" ];
+  5 -- 1 [ color="blue" ];
+  6 -- 8 [ ];
+  9 -- 6 [ ];
+  8 -- 10 [ ];
+  10 -- 9 [ ];
+  6 -- 10 [ ];
+  6 -- 7 [ ];
+  7 -- 9 [ ];
+  7 -- 11 [ ];
+  11 -- 6 [ ];
+  7 -- 8 [ ];
+}

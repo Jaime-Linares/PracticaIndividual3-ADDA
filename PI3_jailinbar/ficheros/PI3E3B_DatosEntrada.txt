@@ -1,0 +1,15 @@
+Alumno1: Actividad1, Actividad2, Actividad10
+Alumno2: Actividad1, Actividad3, Actividad5
+Alumno3: Actividad8, Actividad4, Actividad6
+Alumno4: Actividad4, Actividad5, Actividad6
+Alumno5: Actividad1, Actividad3
+Alumno6: Actividad8, Actividad9
+Alumno7: Actividad6, Actividad8
+Alumno8: Actividad7,Actividad1
+Alumno9: Actividad3
+Alumno10: Actividad3, Actividad11
+Alumno11: Actividad2, Actividad6
+Alumno12: Actividad4
+Alumno13: Actividad11, Actividad12
+Alumno14: Actividad5
+Alumno15: Actividad5, Actividad1, Actividad3

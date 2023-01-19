@@ -1,0 +1,30 @@
+strict graph G {
+  1 [ label="Ciudad1" ];
+  2 [ label="Ciudad2" ];
+  3 [ label="Ciudad3" ];
+  4 [ label="Ciudad4" ];
+  5 [ label="Ciudad5" ];
+  6 [ color="blue" label="Ciudad6" ];
+  7 [ color="blue" label="Ciudad7" ];
+  8 [ color="blue" label="Ciudad8" ];
+  9 [ color="blue" label="Ciudad9" ];
+  10 [ color="blue" label="Ciudad10" ];
+  11 [ color="blue" label="Ciudad11" ];
+  1 -- 2 [ label="30.0 euros" ];
+  2 -- 3 [ label="20.0 euros" ];
+  3 -- 5 [ label="24.0 euros" ];
+  2 -- 4 [ label="20.0 euros" ];
+  4 -- 5 [ label="8.0 euros" ];
+  1 -- 3 [ label="5.0 euros" ];
+  5 -- 1 [ label="10.0 euros" ];
+  6 -- 8 [ color="blue" label="6.0 euros" ];
+  9 -- 6 [ label="35.0 euros" ];
+  8 -- 10 [ color="blue" label="10.0 euros" ];
+  10 -- 9 [ color="blue" label="12.0 euros" ];
+  6 -- 10 [ label="32.0 euros" ];
+  6 -- 7 [ label="23.0 euros" ];
+  7 -- 9 [ color="blue" label="5.0 euros" ];
+  7 -- 11 [ color="blue" label="12.0 euros" ];
+  11 -- 6 [ color="blue" label="15.0 euros" ];
+  7 -- 8 [ label="4.0 euros" ];
+}

@@ -1,0 +1,37 @@
+strict digraph G {
+  1 [ label="Paco" ];
+  2 [ label="Pepa" ];
+  3 [ color="blue" label="Edu" ];
+  4 [ label="Lola" ];
+  5 [ label="Juan" ];
+  6 [ label="Laura" ];
+  7 [ label="Manuel" ];
+  8 [ label="Carmen" ];
+  9 [ label="Antonio" ];
+  10 [ label="Pablo" ];
+  11 [ label="Ana" ];
+  12 [ label="Patricia" ];
+  13 [ label="Maria" ];
+  14 [ color="blue" label="Sara" ];
+  15 [ label="Marta" ];
+  16 [ label="Rafael" ];
+  17 [ label="Lourdes" ];
+  1 -> 3 [ ];
+  2 -> 3 [ ];
+  3 -> 8 [ ];
+  4 -> 8 [ ];
+  5 -> 9 [ ];
+  5 -> 10 [ ];
+  6 -> 9 [ ];
+  6 -> 10 [ ];
+  7 -> 13 [ ];
+  8 -> 13 [ ];
+  7 -> 12 [ ];
+  8 -> 12 [ ];
+  8 -> 14 [ ];
+  9 -> 14 [ ];
+  10 -> 15 [ ];
+  11 -> 15 [ ];
+  10 -> 16 [ ];
+  17 -> 16 [ ];
+}
